@@ -1,0 +1,768 @@
+
+.dib {
+    display: inline-block;
+}
+
+.vertical-a-t {
+    vertical-align: top;
+}
+
+.app-product-details-card-container {
+    padding: 20px !important;
+    min-height: 355px !important;
+}
+
+.app-product-details-card {
+    height: 100%;
+    background: #ffffff;
+}
+
+.app-product-details-card-content {
+    padding: 24px 24px 58px 24px!important;
+    background: #ffffff;
+}
+
+.app-product-details-card-title {
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.start-icon {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-right: 12px!important;
+}
+.app-product-review-box-holder {
+    width: 100%;
+    text-align: right;
+}
+
+.app-product-review-box {
+    margin-left: auto;
+    width: 100%;
+    max-width: 80px;
+    padding: 8px 12px;
+    font-family: 'Nunito Sans Bold';
+    color: #FFFFFF;
+    line-height: 21px;
+    font-size: 15px;
+    text-align: right;
+    background: #5DAE29;
+    border-radius: 2px;
+    border-style: solid;
+}
+.app-product-review-count{
+    margin-top: 8px !important;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.app-product-landmark {
+    margin-top: 4px;
+    display: block;
+    clear: both;
+    color: #29292F;
+    font-family: 'Nunito Sans Semi Bold';
+    line-height: 21px;
+    font-size: 14px;
+}
+
+
+.app-product-view-on-map {    
+    clear: both;
+    color: #6F6F6F;
+    font-family: 'Nunito Sans Regular';
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.app-product-details-card-package-title {
+    margin-top: 16px;
+    font-family: 'Nunito Sans';
+    color: #A2A3AE;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.app-product-details-card-package-price {
+    margin-top: 2px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 28px;
+    font-size: 20px;
+    text-align: right;
+}
+
+#mySelectedProductsTabHead {
+    border: rgba(74, 75, 78, 0.5) !important;
+    border-width: 0.5px !important;
+    border-style: solid !important;
+    background: #ffffff;
+}
+
+#mySelectedProductsTabHead > li.active {
+    
+    border-bottom: #0361E3 !important;
+    border-bottom-style: solid !important;
+    border-width: 3px !important;
+}
+
+#mySelectedProductsTabHead > li > a {
+    border-style: none !important;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+#mySelectedProductsTabHead > li.active > a {
+    border-style: none !important;
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+
+#mySelectedProductsViewPager {
+    background: #ffffff;
+}
+
+.app-product-details-card-package-description {
+    margin-top: 16px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #A2A3AE;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.app-product-details-about-us-title {
+    margin: 0px 33px;
+    margin-top: 35px;
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.app-product-details-about-us-intro {
+    margin: 0px 48px;
+    margin-top: 16px;
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.app-product-details-about-us-content-title {
+    margin: 0px 48px;
+    margin-top: 24px;
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.app-product-details-about-us-content-content {
+    margin: 0px 48px;
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+
+
+
+/* PACKAGES */
+.app-product-details-packages-available {
+    padding : 21px 24px !important;
+    border-top: rgba(74, 75, 84, 0.5);    
+    border-top-style: solid;
+    border-top-width: 0.5px;
+}
+
+.app-product-details-packages-available-title {
+    font-family: 'Nunito Sans';
+    color: #A2A3AE;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.app-product-details-packages-available-description {
+    margin-top: 4px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #444444;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: left;
+
+}
+.app-product-details-packages-available-text {
+    padding-right: 20px !important;
+    margin-top: 1px;
+    font-family: 'Nunito Sans';
+    color: #A2A3AE;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: right;
+
+}
+.app-product-details-packages-available-price {
+    padding-right: 20px !important;
+    margin-top: 4px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: right;
+
+}
+
+.app-product-details-packages-available-get-deal {
+    border-radius: 2px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #FFFFFF;
+    background: #0361E3;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    padding: 13px 0px;
+    width: 100%;
+
+}
+
+/* PHOTOS */
+.app-product-details-photo-list{
+    background: #ffffff;
+}
+
+.app-product-details-photo-thumbnail {
+    padding-top: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.app-product-details-photo-enlarged{
+    object-fit: cover;
+    width: 100%;
+}
+
+.modal-lg {
+    max-width: 80% !important;
+}
+
+
+/* Contact Us */
+
+.button-icon{
+    margin: auto;
+    margin-top: 14px;
+    margin-left: 12px;
+    height: 20px;
+    width: 20px;
+}
+
+.app-product-details-contact {
+    padding:  36px 48px;;
+}
+
+.app-product-details-contact-title {
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.app-product-details-contact-number-holder {
+    margin-top: 24px!important;
+    border-color: #CFD1DE;
+    background: #ffffff;
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.app-product-details-contact-number {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Nunito Sans';
+    border: none;
+}
+
+.app-product-details-contact-number::-moz-placeholder {
+    color: #A2A3AE;
+}
+
+.app-product-details-contact-number-submit {
+    width: 100%;
+    padding: 12px 19px;
+    color: #ffffff;
+    background: #0361E3;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Nunito Sans Bold';
+}
+
+.app-product-details-label-2  {
+    margin-top: 20px;
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+
+.md-group {
+    position: relative;
+    margin: 24px 12px 0px 12px;
+  }
+    
+.md-input {
+    background: none;
+    color: #c6c6c6;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 10px 10px 3px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #c6c6c6;
+}
+.md-input:focus {
+    outline: none;
+}
+.md-input:focus ~ .md-label, 
+.md-input:valid ~ .md-label {
+    top: -14px;
+    font-size: 12px;
+    color: #2196F3;
+}
+.md-input:focus ~ .md-bar:before{
+    width: 100%;
+}
+  
+.md-input[type="password"] {
+    letter-spacing: 0.3em;
+}
+  
+.md-label {
+    color: #c6c6c6;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    -webkit-transition: 300ms ease all;
+    transition: 300ms ease all;
+}
+  
+.md-bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.md-bar:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: #2196F3;
+    -webkit-transition: 300ms ease all;
+    transition: 300ms ease all;
+    left: 0%;
+}
+
+
+.app-product-details-contact-send-message {
+    margin: 36px 0px;
+    margin-left:auto;
+    width: 150px;
+    padding: 12px 19px;
+    color: #ffffff;
+    background: #0361E3;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Nunito Sans Bold';
+}
+
+/* Review Section */
+
+/* Review Section Top */
+.app-product-details-review-tab-title {
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 30px;
+    font-size: 20px;
+    width: 80%;
+    display: inline-block;
+}
+
+.app-product-details-review-tab-write-a-review-box {
+    display: inline-block;
+    width: 20%;
+    border-style: solid;
+    background: #ffffff;
+    padding: 8px 12px;
+    border-width: 0.5px;;
+    border-color: rgba(74, 75, 84, 0.5);
+}
+
+.app-product-details-review-tab-write-a-review-box-icon {
+    color: #29292F;
+    font-size: 12px;
+}
+
+.app-product-details-review-tab-write-a-review-box-text {
+    margin-left: 8px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+/* New Review Section */
+.ratingBoxPadding {
+    padding : 0px 24px 0px 24px;
+}
+.app-product-details-review-tab-rate-your-venue {
+    margin-top: 16px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.app-product-details-give-rating-stars {
+    margin-top: 16px;
+    font-size: 42px;
+}
+
+.apdgrs-selected {
+    color: #5DAE29;
+}
+
+.apdgrs-unselected {
+    color: #C8C8C8;
+}
+
+.apdgrs-half-empty:after, .apdgrs-half-full:after, .apdgrs-half-o:after {
+    content: "\f123";
+    transform: rotateY(-180deg);
+    display: inline-block;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    color: #EDEDED;
+    overflow: hidden;
+    width: 8px;
+}
+
+.app-product-details-known-for {
+    margin-top: 40px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.app-product-details-known-for-tags {
+    margin-top: 4px;
+}
+
+.apdkft {
+    margin-top: 12px;
+    margin-right: 12px;
+    display: inline-block;
+    padding: 8px 12px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2px;
+    font-family: 'Nunito Sans';
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.apdkft-unselected {
+    border-color: rgba(74, 75, 84, 0.5);
+    background: #ffffff;
+    color: #29292F;
+}
+
+.apdkft-selected {
+    border-color: #5DAE29;
+    background: #5DAE29;
+    color: #ffffff;;
+}
+
+.app-product-details-write-your-review {
+    margin-top: 40px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.app-product-details-write-your-review-input-area {
+    margin-top: 16px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 2px;
+    border-color: rgba(74, 75, 84, 0.5);
+    min-height: 230px;
+    width: 100%;
+    color: #29292F;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.app-product-details-write-your-review-input-area ::placeholder {
+    color: #c6c6c6;
+}
+
+.app-product-details-write-your-review-input-area :placeholder-shown {
+    background: none;
+}
+
+.app-product-details-write-your-review-input-area :focus {
+    outline: none;
+}
+
+.app-product-details-write-your-review-submit {
+    margin: 36px 0px;
+    margin-left:auto;
+    width: 150px;
+    padding: 12px 19px;
+    color: #ffffff;
+    background: #0361E3;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Nunito Sans Bold';
+}
+
+/* Review Sumary */
+.app-product-details-review-summary-title{
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.app-product-details-review-summary-section {
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.app-product-details-review-summary-big-rating-box{
+    font-family: 'Nunito Sans Semi Bold';
+    height: 149px;
+    width: 144px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: rgba(74, 75, 84, 0.5);
+}
+
+.app-product-details-review-summary-big-rating-box-rating{
+    margin-top: 12px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #5DAE29;
+    width: 100%;
+    text-align: center;;
+    font-size: 46px;
+    line-height: 69px;
+}
+
+.app-product-details-review-summary-big-rating-box-rating-stars{
+    color: #5DAE29;
+    width: 100%;
+    text-align: center;;
+    font-size: 15px;
+}
+
+.app-product-details-review-summary-big-rating-box-rating-count{
+    margin-top: 18px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    width: 100%;
+    text-align: center;;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.app-product-details-review-summary-vertical-seperator {
+    height: 149px;
+    width: 1px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-left-style: dashed;
+    border-left-width: 0.5px;
+    border-left-color: rgba(74, 75, 84, 0.5);
+}
+
+.app-product-details-review-summary-rating-distributor {
+    margin-bottom: 8px;
+}
+
+.app-product-details-review-summary-rating-count-label {
+    margin-right: 10px;
+    height: 20px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #4A4B54;
+    font-size: 14px;
+    line-height: 21px;
+    min-width: 2px;
+}
+
+.app-product-details-review-summary-rating-count-horizontal-bar-holder {
+    width: 120px;
+}
+
+.app-product-details-review-summary-rating-count-horizontal-bar {
+    height: 20px;
+    background-color: #5DAE29;
+    min-width: 2px;
+}
+
+.app-product-details-review-summary-social{
+    max-width: 191px;
+    width: 50%;
+    float: right;
+}
+
+.app-product-details-review-summary-social-review {
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.app-product-details-review-summary-best-know-for-holder{
+    margin-top: 12px;
+}
+
+.app-product-details-review-summary-best-know-for {
+    
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.app-product-details-review-summary-best-know-for-val {
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Review List */
+.seperator {
+    width: 100%;
+    height: 0.5px;
+    background: rgba(74, 75, 84, 0.5);
+
+}
+.app-product-details-reviews-title{
+    margin-top: 9.5px;
+    font-family: 'Nunito Sans Semi Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.single-review-box{
+    padding: 24px 24px 16px 24px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #EDEDED;
+}
+
+.single-review-reply-box {
+    background: #EDEDED;
+    padding: 24px;
+    padding-bottom: 29px;
+}
+
+.review-user-profile-icon {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 64px;
+    border-color: rgba(74, 75, 84, 0.5);
+}
+
+.review-user-details {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.review-user-profile-name {
+    margin-top: 7px;
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.review-user-time {
+    margin-top: 4px;
+    font-family: 'Nunito Sans';
+    color: #959595;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.review-user-message {
+    margin-top: 21px;
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.review-reply-section {
+    margin-left: 16px;
+}
+
+.review-reply-from {
+    font-family: 'Nunito Sans Bold';
+    color: #29292F;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.review-reply {
+    margin-top: 4px;
+    font-family: 'Nunito Sans';
+    color: #29292F;
+    line-height: 21px;
+    font-size: 14px;
+}

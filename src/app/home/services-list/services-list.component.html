@@ -1,0 +1,20 @@
+<div class="row p-0 m-0 full-parent-height">
+    <!-- Service 1 -->
+    <div
+            *ngFor="let service of serviceList"
+            (click)='openService(service)'
+        class="col-lg-4 col-md-6 col-sm-12 p-0 app-service-card-container">
+            <div class="card border-0 shadow app-service-card"
+            [style.background-image]="'url(assets/icons/'+service.icon+')'"   >
+                <div class="h-100 blacked-40">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 text-center">
+                            <div class="app-service-card-title">{{service.name}}</div>
+                            <p class="app-service-card-underline"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</div>
